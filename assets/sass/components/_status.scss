@@ -1,0 +1,31 @@
+.validation-msg,
+.thank-you {
+  border: 5px solid #333;
+  max-width: 340px;
+  padding: 10px;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.thank-you-contact {
+  font-size: 2rem;
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.error {
+  background-color: #ad1111;
+  border-color: #c45e5e;
+  color: #fff;
+}
+
+.success {
+  background-color: #1b6628;
+  border-color: #41b554;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 420px;
+}

@@ -1,0 +1,26 @@
+.site-header {
+  padding: ($base-spacing * 2) 0 $base-spacing;
+
+  @media #{$mq-tablet-and-up} {
+    padding: ($base-spacing * 2) 0;
+  }
+
+  @media #{$mq-tablet-and-up} {
+    @supports (display: flex) {
+      align-items: center;
+      display: flex;
+
+      a {
+        flex-basis: 30%;
+      }
+
+      .main-nav {
+        flex-basis: 70%;
+      }
+
+      ul {
+        list-style: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.user-details,
+.business-details {
+  margin-top: 40px;
+
+  @media #{$mq-small-desktop-and-up} {
+    margin-top: inherit;
+    text-align: left;
+  }
+
+  dt {
+    font-weight: 400;
+    margin-top: 20px;
+  }
+}
