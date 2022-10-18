@@ -4192,10 +4192,10 @@ core-js@^2.4.0, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.15.1:
-  version "3.19.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.1.tgz#f6f173cae23e73a7d88fa23b6e9da329276c6641"
-  integrity sha512-Tnc7E9iKd/b/ff7GFbhwPVzJzPztGrChB8X8GLqoYGdEOG8IpLnK1xPyo3ZoO3HsK6TodJS58VGPOxA+hLHQMg==
+core-js@^3.25.5:
+  version "3.25.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.5.tgz#e86f651a2ca8a0237a5f064c2fe56cef89646e27"
+  integrity sha512-nbm6eZSjm+ZuBQxCUPQKQCoUEfFOXjUZ8dTTyikyKaWrTYmAVbykQfwsKE5dBK88u3QCkCrzsx/PPlKfhsvgpw==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -11163,12 +11163,12 @@ stylelint-order@^5.0.0:
     postcss "^8.3.11"
     postcss-sorting "^7.0.1"
 
-stylelint-scss@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.0.0.tgz#4901ced92b9c68e37649799a39defbd5f2ac5bcd"
-  integrity sha512-lIRhPqtI6I065EJ6aI4mWKsmQt8Krnu6aF9XSL9s8Nd2f/cDKImST0T9TfjnUul3ReKYWozkG9dlpNTZH2FB9w==
+stylelint-scss@^4.0.0, stylelint-scss@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.3.0.tgz#638800faf823db11fff60d537c81051fe74c90fa"
+  integrity sha512-GvSaKCA3tipzZHoz+nNO7S02ZqOsdBzMiCx9poSmLlb3tdJlGddEX/8QzCOD8O7GQan9bjsvLMsO5xiw6IhhIQ==
   dependencies:
-    lodash "^4.17.15"
+    lodash "^4.17.21"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^6.0.6"
