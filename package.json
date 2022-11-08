@@ -41,7 +41,7 @@
     "jest": "^27.0.5",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "sass": "^1.55.0",
+    "sass": "^1.56.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
