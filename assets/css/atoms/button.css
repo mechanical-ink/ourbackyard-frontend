@@ -1,0 +1,11 @@
+.button {
+  border: 0;
+  border-radius: var(--border-radius-default);
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--color-purple-700);
+  color: var(--color-neutral-inverted);
+  padding: 0.5rem;
+}

@@ -3,7 +3,7 @@
 <template>
   <div>
     <ThePageHeader />
-    Page: Homepage
+    <SearchForm isHome="true" />
   </div>
 </template>
 

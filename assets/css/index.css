@@ -1,4 +1,9 @@
+@import "~/assets/css/atoms/button.css";
+@import "~/assets/css/atoms/forms.css";
+
 :root {
+  --border-radius-default: 0.5rem;
+
   --color-page-background: #efd9ce;
   --color-link-color: #03045e;
 
@@ -17,6 +22,8 @@
   --color-purple-200: #d2b7e5;
   --color-purple-100: #e2cfea;
 
+  --forms-input-padding: 0.5rem;
+
   --layout-default-spacing: 1.2rem;
   --layout-medium-spacing: 2rem;
 
@@ -27,13 +34,56 @@
 
   --layout-bring-to-front: 1000;
 
-  --typography-size-xxl: 4.209rem;
-  --typography-size-xl: 3.157rem;
-  --typography-size-large: 2.369rem;
-  --typography-size-medium: 1.777rem;
-  --typography-size-small-medium: 1.333rem;
+  --typography-size-xxl: 2.488rem;
+  --typography-size-xl: 2.074rem;
+  --typography-size-large: 1.728rem;
+  --typography-size-medium: 1.44rem;
+  --typography-size-small-medium: 1.2rem;
   --typography-size-default: 1rem;
-  --typography-size-tiny: 0.75rem;
+  --typography-size-tiny: 0.833rem;
+
+  --typography-heading-line-height: 1.2;
+  --typography-content-line-height: 1.7;
+}
+
+@media screen and (min-width: 63.9375em) {
+  :root {
+    --typography-size-xxl: 4.209rem;
+    --typography-size-xl: 3.157rem;
+    --typography-size-large: 2.369rem;
+    --typography-size-medium: 1.777rem;
+    --typography-size-small-medium: 1.333rem;
+    --typography-size-default: 1rem;
+    --typography-size-tiny: 0.75rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: var(--typography-heading-line-height);
+}
+
+h1 {
+  font-size: var(--typography-size-xxl);
+}
+
+h2 {
+  font-size: var(--typography-size-xl);
+}
+
+h3 {
+  font-size: var(--typography-size-large);
+}
+
+h4 {
+  font-size: var(--typography-size-medium);
+}
+
+h5 {
+  font-size: var(--typography-size-small-medium);
 }
 
 a {
