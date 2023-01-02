@@ -58,11 +58,13 @@ const loggedInMenuItems = [
 const mainMenu = ref([...baseMenuItems, ...loggedOutMenuItems]);
 const showMenu = ref(false);
 
-document.body.addEventListener("keyup", (event) => {
-  if (event.key === "Escape") {
-    showMenu.value = false;
-  }
-});
+// if (document !== undefined) {
+//   document.body.addEventListener("keyup", (event) => {
+//     if (event.key === "Escape") {
+//       showMenu.value = false;
+//     }
+//   });
+// }
 </script>
 
 <style scoped>
